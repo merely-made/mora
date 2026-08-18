@@ -1,0 +1,22 @@
+[package]
+name = "mora"
+version = "0.1.0"
+edition = "2024"
+license = "MIT OR Apache-2.0"
+description = "A prosody engine: syllabification, syllable weight counted in morae, accentual and quantitative meter, and sound kinship (rhyme, assonance, consonance, alliteration). Language-parameterized, no_std, zero dependencies."
+repository = "https://github.com/merely-made/mora"
+readme = "README.md"
+keywords = ["prosody", "phonology", "meter", "poetry", "linguistics"]
+categories = ["text-processing", "no-std"]
+exclude = ["design_docs/"]
+
+[features]
+# `alloc` buys the collecting conveniences (`syllabify`, `scan_best`).
+# Everything they wrap is available as a `_into` form over caller buffers.
+default = ["alloc", "english"]
+alloc = []
+# The English phone set (ARPAbet) and CMUdict-line parsing. Turn it off for a
+# language-neutral core.
+english = []
+
+[dependencies]
