@@ -2,7 +2,7 @@
 
 A prosody engine, built on the mora.
 
-## Status (2026-08-15)
+## Status (2026-08-18)
 
 Published as `mora` 0.1.0. The engine is complete and tested; no pronunciation
 lexicon ships with it.
