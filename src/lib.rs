@@ -53,6 +53,14 @@
 //!
 //! # Boundaries
 //!
+//! # Canonical sound-kinship API
+//!
+//! Sound kinship is part of this crate: use [`sonance`] as
+//! `mora::sonance`. The separately named `sonance` repository is an archived
+//! pointer, not a second implementation or dependency surface.
+//!
+//! # Boundaries
+//!
 //! `mora` measures sound. It is not a phonemizer (bring pronunciations), not a
 //! semantic analyzer, and not a rhyming dictionary: it answers whether two
 //! given pronunciations rhyme, not which words in a language do.
@@ -65,6 +73,7 @@ extern crate alloc;
 
 pub mod meter;
 pub mod phone;
+/// Sound kinship between pronunciations. This is the canonical Sonance API.
 pub mod sonance;
 pub mod syllable;
 pub mod weight;

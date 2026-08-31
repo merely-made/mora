@@ -4,6 +4,9 @@
 //! dis-sonance, re-sonance. Every relation here is a comparison of phone
 //! sequences against a shared symbol table, so any language that supplies
 //! phones gets all of them at once.
+//!
+//! This is the canonical public API for Sonance. Import it as `mora::sonance`;
+//! the standalone `sonance` repository is an archive pointer only.
 
 use crate::phone::{Phone, Stress};
 use crate::syllable::Syllable;

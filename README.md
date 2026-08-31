@@ -100,8 +100,9 @@ not a rhyming dictionary: it answers whether two given pronunciations rhyme,
 not which words in a language do. Meaning-side kinship belongs to an embedding
 model, and the two are meant to be read side by side rather than merged.
 
-The `sonance` name is reserved on crates.io for the sound-kinship half, which
-lives here as a module until something forces it into its own crate.
+The canonical sound-kinship API is `mora::sonance`. The separately named
+[`sonance`](https://github.com/merely-made/sonance) repository is an archive
+pointer, not another implementation or dependency surface.
 
 ## License
 
