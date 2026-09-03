@@ -106,7 +106,10 @@ pointer, not another implementation or dependency surface.
 
 ## License
 
-MIT OR Apache-2.0.
+MPL-2.0 (see [`LICENSE`](LICENSE)). Provenance is recorded in
+[`LICENSES.md`](LICENSES.md): nothing here is third-party, and no lexicon
+ships. Published `mora` 0.1.0 keeps the MIT OR Apache-2.0 grant it shipped
+with; MPL-2.0 reaches crates.io at the next functional bump.
 
 ---
 
